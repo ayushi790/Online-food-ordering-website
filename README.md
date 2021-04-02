@@ -1,6 +1,12 @@
 # FoodEdgy
 Online Food Ordering Management System Mini-Project. This is a Web based Application developed using PHP as a Host Language.Anybody can create an account and order online.
 
+# Screenshots
+<img src="./images/img1.png" width = 850px>
+
+<img src="./images/img2.png" width = 850p>
+
+
 # Technologies Used
 * PHP
 * SQL
