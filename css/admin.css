@@ -1,0 +1,544 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Vollkorn', serif;
+}
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+h4{
+  color: #2ed573;
+  margin-bottom: 2%;
+  font-size: 1.5rem;
+}
+
+a{
+  text-decoration: none;
+}
+
+a:hover{
+  text-decoration: none;
+}
+
+.order h5{
+  color:#fff;
+  font-size: 2rem;
+}
+
+.order h5 span{
+  color: #FFF200;
+  font-size: 2rem;
+}
+
+.order #Form .inputRadio .inputs{
+  margin-left: 13%;
+}
+
+.manageOrder #main{
+  padding-left: 2%;
+  padding-right: 2%;
+}
+
+h4 span{
+  color: #ff6b81;
+  margin-bottom: 2%;
+  font-size: 1.5rem;
+}
+  
+#header {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2rem 4rem;
+  z-index: 1000;
+  text-align: center;
+  background-color:gray;
+  box-shadow: black;
+}
+  
+#header .fa-hamburger {
+  font-size: 4rem;
+  z-index: 10000;
+  color: #FFF200;
+  cursor: pointer;
+  display: none;
+} 
+
+
+#header nav ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  list-style: none;
+  text-align: center;
+}
+  
+#header nav ul li {
+  margin-right: 4rem;
+}
+  
+#header nav ul li a {
+  color: #fff;
+  font-size: 2.5rem;
+  border-radius: 5rem;
+}
+  
+#header nav ul li a:hover {
+  padding: .5rem 4.5rem;
+  color: #333;
+  background: #FFF200;
+  text-decoration: none;
+}
+  
+.header-active {
+  background: #333;
+  height: 6rem;
+  -webkit-box-shadow: .2rem 0 .5rem #000;
+          box-shadow: .2rem 0 .5rem #000;
+  }
+  
+.header-active nav ul {
+  margin: 0;
+}
+
+.fa-times {
+  transform: skew(-180deg) rotate(-180deg);
+}
+
+  /* css for main section */
+
+  #main{
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
+    min-height: 85vh;
+    position: relative;
+    background-color:thistle;
+    align-items: center;
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+
+  
+  #main .box-container {
+    width: 95%;
+    margin: 0rem auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  
+  #main .box-container .box {
+    height: 12rem;
+    width: 22rem;
+    background: #fff;
+    padding: 1rem;
+    margin: 2rem;
+    text-align: center;
+    border-radius: 10px;
+    border-color: black;
+    border-style: double;
+  }
+  #main .box-container .box h1{
+    color: black;
+    font-weight: lighter;
+  }
+
+  #main .box-container .box p {
+    font-size: 2rem;
+    font-weight: bolder;
+    margin: 2rem 0;
+  }
+ 
+  #main .heading h1 {
+    font-size: 4rem;
+    color: #FFF200;
+    padding-top: 12rem;
+    margin-bottom: 2rem;
+  }
+  
+  .logo img {
+    height: 5rem;
+  }
+
+/* css for footer section */
+
+  #footer {
+    background: #333;
+  }
+  
+  #footer h1 {
+    font-size: 2rem;
+    margin: 0;
+    padding: 2rem 0;
+    text-align: center;
+    color: #fff;
+  }
+  
+  #footer h1 span {
+    color: #FFF200;
+  }
+  
+  #footer .brand {
+    text-align: center;
+    margin-top: 2rem;
+  }
+
+  #footer .brand .icons a {
+    font-size: 2rem;
+    margin: 2rem 1rem;
+    color: #fff;
+  }
+  
+  #footer .brand .icons a:hover {
+    color: #FFF200;
+  }
+
+  #footer .letter h2 {
+    font-size: 2rem;
+    color: #fff;
+  }
+  
+  #footer .letter input[type="text"] {
+    border: .2rem solid #fff;
+    outline: none;
+    background: none;
+    height: 4rem;
+    width: 22rem;
+    padding: 0 1rem;
+    font-size: 1.3rem;
+    margin: 1rem;
+    color: #fff;
+  }
+  
+  #footer .letter input[type="submit"] {
+    outline: none;
+    border: none;
+    border-radius: 5rem;
+    color: #333;
+    font-size: 1.6rem;
+    font-weight: bold;
+    text-transform: capitalize;
+    letter-spacing: .2rem;
+    cursor: pointer;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    height: 4rem;
+    width: 12rem;
+    margin: 1rem 0;
+  }
+  
+  #footer .letter input[type="submit"]::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #FFF200;
+    height: 100%;
+    width: 0%;
+    -webkit-transition: .2s;
+    transition: .2s;
+    z-index: -1;
+  }
+  
+  #footer .letter input[type="submit"]:hover::before {
+    width: 100%;
+  }
+  
+  #footer .letter input[type="submit"]:hover {
+    color: #333;
+    background: #FFF200;
+  }
+  
+
+  @media (max-width: 768px){
+    #header .fa-hamburger {
+      display: block;
+    }
+
+    #header nav {
+      position: fixed;
+      top: 0;
+      left: -120%;
+      height: 100vh;
+      width: 35rem;
+      background: #000;
+    }
+    #header nav ul {
+      flex-flow: column;
+      justify-content: center;
+      height: 100%;
+    }
+    #header nav ul li {
+      margin: 2rem 0;
+    }
+    #header nav ul li a {
+      font-size: 3.5rem;
+      border-radius: 5rem;
+    }
+    #header nav ul li a:hover {
+      padding: .5rem 7.5rem;
+      color: #333;
+      background: #FFF200;
+    }
+    #header .nav-toggle {
+      left: 0%;
+    } 
+  }
+
+
+
+.tbl_full{
+  /* padding-top: 2%; */
+  width: 100%;
+  font-size: 1.5rem;
+}
+
+table tr th{
+  border-bottom: 1px solid white;
+  color: white;
+  padding:1% ;
+  padding-top: 3%;
+  text-align:left ;
+}
+
+table tr td{
+  padding:1%;
+  color: #fff;
+}
+
+/* css for button */
+
+.btn-primary{
+  padding: 1%;
+  background-color: #1e90ff;
+  text-decoration:none;
+  font-weight: bold;
+  font-size: 1.5rem;
+  border-radius: 7px;
+}
+
+.btn-primary:hover{
+  background-color:hsl(237, 95%, 60%);
+  text-decoration:none;
+}
+.btn-secondary{
+  padding: 1%;
+  background-color: #7bed9f;
+  font-weight: bold;
+  border-radius: 7px;
+  font-size: 1.5rem;
+  text-decoration:none;
+  color: #000;
+}
+
+.btn-secondary:hover{
+  background-color:#2ed573;
+  text-decoration:none;
+}
+
+.btn-danger{
+  padding: 1%;
+  background-color: #ff6b81;
+  font-weight: bold;
+  border-radius: 7px;
+  font-size: 1.5rem;
+  text-decoration:none;
+}
+
+.btn-danger:hover{
+  text-decoration:none;
+  background-color:#ff4757;
+}
+
+.tbl_30{
+  width: 30%;
+}
+
+/* css for addAdmin Page */
+
+#Form {
+  min-height: 85vh;
+  width: 100vw;
+  padding: 5rem;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
+  background-color:thistle;
+  background-size: cover;
+  background-position: center;
+}
+
+#Form .heading h1 {
+  font-size: 4rem;
+  color: #000;
+  padding-top: 7rem;
+  margin-bottom: 2rem;
+}
+
+#Form .heading h1  {
+  color: #FFF200;
+}
+
+#Form form {
+  background: #fff;
+  padding-top: 2rem;
+  margin: 1rem 2rem;
+  border-radius: 1rem;
+  -webkit-box-shadow: 0 0 2rem #333;
+          box-shadow: 0 0 2rem #333;
+}
+
+#Form form .inputBox {
+  position: relative;
+  text-align: center;
+}
+
+#Form form .inputBox input, #Form form .inputBox textarea {
+  outline: none;
+  border: .2rem solid #333;
+  border-radius: .2rem;
+  margin: 2rem 0;
+  padding: 0 1rem;
+  background: none;
+  height: 4rem;
+  width: 90%;
+  font-size: 2rem;
+}
+
+
+#Form form .inputBox input:focus ~ h3,
+#Form form .inputBox input:valid ~ h3, #Form form .inputBox textarea:focus ~ h3,
+#Form form .inputBox textarea:valid ~ h3 {
+  font-size: 1.6rem;
+  left: 6%;
+  top: -.5rem;
+  color: #ff3300;
+}
+
+#Form form .inputBox input:focus ~ h3,
+#Form form .inputBox input:valid ~ h3, #Form form .inputBox textarea:focus ~ h3,
+#Form form .inputBox textarea:valid ~ h3{
+  display: none;
+}
+
+#Form form .inputBox textarea {
+  padding: 1rem;
+  resize: none;
+  height: 20rem;
+}
+
+#Form form .inputBox h3 {
+  position: absolute;
+  top: 3rem;
+  left: 7%;
+}
+
+#Form form input[type="submit"] {
+  outline: none;
+  border: none;
+  border-radius: 7px;
+  color: #333;
+  font-size: 1.6rem;
+  font-weight: bold;
+  text-transform: capitalize;
+  letter-spacing: .2rem;
+  cursor: pointer;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+  height: 4rem;
+  width: 17rem;
+  margin-bottom: 2rem;
+  margin-left: 5%;
+  background: #333;
+  color: #fff;
+}
+
+#Form form input[type="submit"]::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: #FFF200;
+  height: 100%;
+  width: 0%;
+  -webkit-transition: .2s;
+  transition: .2s;
+  z-index: -1;
+}
+
+#Form form input[type="submit"]:hover::before {
+  width: 100%;
+}
+
+#Form form input[type="submit"]:hover {
+  color: #333;
+  background: #FFF200;
+}
+
+.inputRadio{
+  clear: none;
+  align-items: center;
+  width: 90%;
+  padding-left: 5%;
+  padding-bottom:4% ;
+  text-align: left;
+}
+
+label {
+  float: left;
+  clear: none;
+  display: block;
+  padding: 0px 1em 0px 8px;
+  margin-bottom: 0;
+}
+
+input[type=radio],
+input .radio{
+  float: left;
+  clear: none;
+  margin: 4px 0 0 0px; 
+}
+
+.inputRadio h3 span {
+  float: left;
+  clear: none;
+  margin-left: 1rem;
+  margin-bottom: 0;
+  margin-top: 0.5rem;
+  margin-right: 2rem;
+}
+.inputs{
+  position: absolute;
+  margin-left: 35%;
+}
+
+.img_upload{
+  margin-left: 38%;
+}
+
+.btn-chooseImage{
+    text-decoration:none;
+    font-size: 1.5rem;
+}
+
+.options{
+  font-size: 1.5rem;
+}
+
