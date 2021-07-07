@@ -39,18 +39,13 @@ CREATE TABLE `tbl_admin` (
 --
 
 INSERT INTO `tbl_admin` (`id`, `full_name`, `username`, `password`) VALUES
-(8, 'ayushi', 'agugupta362@gmail.com', '29c65f781a1068a41f735e1b092546de'),
+(8, 'john', 'john@gmail.com', '29c65f781a1068a41f735e1b092546de'),
 (32, 'ayushi', 'ayushig123', 'ec72e08f1ced07d781fb749d7608a0d4'),
-(36, 'meethi', 'ayushi', '2a4f61809daef37ddacf226ab8734f09'),
-(37, 'meethi', 'ayushi790', '2a4f61809daef37ddacf226ab8734f09'),
-(38, 'meethi g', 'ayushi', '2a4f61809daef37ddacf226ab8734f09'),
-(39, '7896', 'gayushi790@gmail.com', '2a4f61809daef37ddacf226ab8734f09'),
-(40, 'meethi', 'ayushi', '2a4f61809daef37ddacf226ab8734f09'),
-(41, 'ayushi gupta', 'meethi gupta', '2a4f61809daef37ddacf226ab8734f09'),
+(39, '7896', 'abcd@gmail.com', '2a4f61809daef37ddacf226ab8734f09'),
+(41, 'erica', 'eric@yahoo.com', '2a4f61809daef37ddacf226ab8734f09'),
 (42, 'az', 'bz', '2a4f61809daef37ddacf226ab8734f09'),
-(44, 'meethi', 'ayushi', '2a4f61809daef37ddacf226ab8734f09'),
-(45, '184545', '184545', '2a4f61809daef37ddacf226ab8734f09'),
-(50, 'ayushi', 'gayushi', '2a4f61809daef37ddacf226ab8734f09');
+(45, '12345', '12345@mail.com', '2a4f61809daef37ddacf226ab8734f09'),
+(50, 'jennifer', 'jennifer@mail.com', '2a4f61809daef37ddacf226ab8734f09');
 
 -- --------------------------------------------------------
 
